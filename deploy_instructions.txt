@@ -1,0 +1,22 @@
+
+## Deploy instructions (quick)
+
+Option A — GitHub + Cloudflare Pages (recommended)
+1. Create a new GitHub repository (e.g., herbalhomeschool-pages).
+2. Upload all files in this ZIP to the repo root (index.html, assets/..., README.md).
+3. In Cloudflare dashboard -> Pages -> Create project -> Connect to GitHub and select this repo.
+4. Build settings: Framework preset: None. Build command: (leave blank). Build output folder: /
+5. Deploy. Your site will be available at https://<project>.pages.dev (or map custom domain).
+
+Option B — Manual upload using Cloudflare Pages UI (if supported)
+1. In Cloudflare Pages, create a new project, choose 'Upload' (if available) and paste index.html as the site root.
+2. Publish.
+
+Form submission (activate waitlist):
+- Create a free Formspree form at https://formspree.io and copy your form ID.
+- Open index.html and find the line: action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+- Replace YOUR_FORMSPREE_ID with the ID provided by Formspree.
+- Commit and redeploy.
+
+Notes on the Pay Stub Calculator:
+- The coming-soon page links to the existing live calculator. Keep the calculator repo and Cloudflare Pages deployment backed up in GitHub and locally to ensure you can restore if needed.

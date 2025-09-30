@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Herbal HomeSchool — Coming Soon</title>
+  <meta name="description" content="Herbal HomeSchool — Learning, Tools & Growth for Everyone. Free printables, tools, and easy lesson plans. Try the Pay Stub Calculator (already live)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --green:#6B9F76; --mint:#EAF6EE; --beige:#FFF9F0; --char:#1E2A24; --accent:#E7A14A;
+      --radius:14px; --max:1100px; --gap:18px;
+      font-family: Poppins, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color:var(--char);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#fff 0%, #fbfdf9 100%);display:flex;min-height:100vh;align-items:flex-start;justify-content:center;padding:28px}
+    .wrap{max-width:var(--max);width:100%}
+    header{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}
+    .logo{display:flex;align-items:center;gap:12px}
+    .logo .mark{width:52px;height:52px;background:var(--green);border-radius:12px;display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-family:"Playfair Display";font-size:22px;box-shadow:0 6px 18px rgba(50,80,60,0.12)}
+    .nav a{color:var(--char);text-decoration:none;margin-left:14px;font-weight:600}
+    .hero{background:linear-gradient(180deg, rgba(107,159,118,0.06), rgba(231,161,74,0.02));padding:26px;border-radius:18px;display:grid;grid-template-columns:1fr 360px;gap:20px;align-items:center;border:1px solid rgba(30,30,30,0.04)}
+    .hero h1{font-family:"Playfair Display";margin:0;font-size:34px;color:var(--char)}
+    .lead{margin:12px 0 18px;line-height:1.5;color:#334}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{padding:12px 18px;border-radius:10px;border:0;font-weight:700;cursor:pointer;display:inline-block;text-decoration:none}
+    .btn-primary{background:var(--green);color:#fff}
+    .btn-outline{background:transparent;border:2px solid rgba(30,30,30,0.08);color:var(--char)}
+    .card{background:#fff;padding:14px;border-radius:12px;box-shadow:0 6px 18px rgba(30,30,30,0.04)}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit, minmax(220px,1fr));gap:var(--gap);margin-top:18px}
+    .card h3{margin:0 0 8px;color:var(--char)}
+    .small{font-size:13px;color:#556}
+    .signup{display:flex;gap:12px;align-items:center;margin-top:12px}
+    input[type=email]{padding:12px;border-radius:10px;border:1px solid #e8e8e8;flex:1}
+    .note{font-size:13px;color:#666;margin-top:10px}
+    footer{margin-top:22px;text-align:center;color:#666;font-size:13px}
+    .feature-list{margin-top:14px;padding-left:18px}
+    .feature-list li{margin-bottom:8px}
+    @media (max-width:820px){ .hero{grid-template-columns:1fr; padding:18px} .hero .side{order:-1} .nav{display:none} }
+  </style>
+</head>
+<body>
+  <div class="wrap" role="main">
+    <header>
+      <div class="logo" aria-hidden="true">
+        <div class="mark">HH</div>
+        <div>
+          <div style="font-weight:700">Herbal HomeSchool</div>
+          <div style="font-size:13px;color:#666">Learning, Tools & Growth for Everyone</div>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Top navigation">
+        <a href="#printables">Printables</a>
+        <a href="#tools">Tools</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <h1 id="hero-title">Coming Soon — Herbal HomeSchool</h1>
+        <p class="lead">An inviting hub of printable lesson plans, simple classroom tools, and practical guides that help families and teachers learn and earn. Built for children, teens, and adults — joyful, reliable, and useful.</p>
+
+        <div class="cta" role="region" aria-label="Main calls to action">
+          <a class="btn btn-primary" href="https://herbalhomeschool.pages.dev/tools/paystub-calculator/" target="_blank" rel="noopener">Try the Pay Stub Calculator — Live</a>
+          <a class="btn btn-outline" href="#signup">Join the Waitlist</a>
+          <a class="btn btn-outline" href="#features">See What's Coming</a>
+        </div>
+
+        <ul class="feature-list" id="features" aria-hidden="false">
+          <li><strong>Free printables:</strong> grade-organized worksheets, science packs, and herb-focused activities.</li>
+          <li><strong>Essential tools:</strong> lesson planner templates, grade checker, and calculators for everyday finances.</li>
+          <li><strong>Creator & business guides:</strong> safe, practical tips for teens and adults who want to build small income streams.</li>
+          <li><strong>Safety & awareness:</strong> scam-spotting guides, mental-health friendly screen time tips, and legal basics.</li>
+          <li><strong>Community-first approach:</strong> scholarships and free resource offers planned via a future nonprofit arm.</li>
+        </ul>
+
+        <div class="cards" style="margin-top:18px">
+          <div class="card">
+            <h3 id="printables">Free Printables</h3>
+            <p class="small">Instant downloads for all ages — worksheets, experiments, and craft sheets that pair with lesson plans.</p>
+          </div>
+          <div class="card" id="tools">
+            <h3>Practical Tools</h3>
+            <p class="small">Lesson planner, grade calculator, and the Pay Stub Calculator (live). Tools designed to be fast and reliable.</p>
+            <p style="margin-top:10px"><a class="btn" style="background:#fff;border:1px solid #eee" href="https://herbalhomeschool.pages.dev/tools/paystub-calculator/" target="_blank" rel="noopener">Open Calculator</a></p>
+          </div>
+          <div class="card">
+            <h3 id="about">Community & Learning</h3>
+            <p class="small">Scholarships, local resources, and guides to learning about plants safely.</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="side card" style="min-width:260px">
+        <h3 id="signup">Join the Launch Waitlist</h3>
+        <p class="small">Enter your email — we’ll send a short launch note and occasional updates. No spam. You can unsubscribe anytime.</p>
+
+        <!-- FORMSPREE: replace YOUR_FORMSPREE_ID with your Formspree ID to activate. -->
+        <form id="notify-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" novalidate>
+          <label for="email" class="small" style="display:block;margin-bottom:6px">Email</label>
+          <div class="signup">
+            <input id="email" name="email" type="email" placeholder="you@example.com" required aria-required="true" />
+            <button class="btn btn-primary" type="submit">Get Notified</button>
+          </div>
+          <p class="note">If you don't set up Formspree yet, the form will still give a local confirmation in your browser (safe fallback).</p>
+        </form>
+
+        <div id="success" style="display:none; margin-top:10px; color:green; font-weight:600">Thanks! You’re on the list — check your inbox when we launch.</div>
+
+        <p class="small" style="margin-top:12px"><strong>Calculator safety:</strong> Our Pay Stub Calculator is permanently backed up and will remain online during redesigns (GitHub + Cloudflare Pages).</p>
+      </aside>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Herbal HomeSchool — <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a>
+    </footer>
+  </div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const form = document.getElementById('notify-form');
+  form.addEventListener('submit', function(e){
+    // If the action still contains the placeholder, prevent network submit and show local success.
+    const action = form.getAttribute('action') || '';
+    if(action.includes('YOUR_FORMSPREE_ID')){
+      e.preventDefault();
+      // local save to localStorage for backup and show success message
+      const email = document.getElementById('email').value.trim();
+      if(email && email.includes('@')){
+        const stored = JSON.parse(localStorage.getItem('hh_waitlist') || "[]");
+        stored.push({email: email, date: new Date().toISOString()});
+        localStorage.setItem('hh_waitlist', JSON.stringify(stored));
+        document.getElementById('success').style.display = 'block';
+        form.reset();
+      } else {
+        alert('Please enter a valid email address.');
+      }
+    } else {
+      // Let Formspree handle the submission.
+      // Optionally show a simple success message after submit with a timeout
+      setTimeout(()=>{ document.getElementById('success').style.display = 'block'; }, 600);
+    }
+  });
+</script>
+</body>
+</html>
