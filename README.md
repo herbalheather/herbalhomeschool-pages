@@ -21,6 +21,3 @@ Highlights:
 Customization notes:
 - Edit text, colors, or content in index.html.
 - Remove references to features you don't want displayed yet.
-- No mention of TOAST AI is included as requested.
-
-If you want, I can also prepare a GitHub repo zipped with a ready branch and a `_redirects` file for Cloudflare Pages routing.
